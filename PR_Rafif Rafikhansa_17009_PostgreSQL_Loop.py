@@ -90,8 +90,8 @@ def main():
         con.commit()
         print(sql2)
 
-    lagi=input("\nInput Operasi Kembali (y/n) ? ")
-    if lagi.lower() == "y" :
+    again=input("\nInput Operasi Kembali (y/n) ? ")
+    if again.lower() == "y" :
         main ()
     else :
         print("Operasi Selesai")
